@@ -72,3 +72,22 @@ body {
     color: inherit;
     cursor: pointer;
 }
+
+.hero {
+    padding: 0 290px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.hero__title {
+    font-size: 116px;
+    padding: 50px 0;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    max-width: 480px;
+    line-height: 1.5;
+}
