@@ -107,7 +107,7 @@ body {
     font-size: 90px;
 }
 
-.advantages__title {
+.advantages__title, .about-us__subtitle {
     padding-bottom: 30px;
 }
 
@@ -119,10 +119,13 @@ body {
 
 .advantages__item {
     grid-column: span 3;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.advantages__item, .about-us__content-wrapper {
+    padding: 30px;
     border: 1px solid #002B4133;
     background-color: #FFFFFF;
     border-radius: 35px;
@@ -136,4 +139,13 @@ body {
     height: 100px;
     background-image: url(bg-2.svg);
     background-position: bottom;
+}
+
+.about-us {
+    padding: 0 290px 50px;
+}
+
+.about-us__subtitle {
+    font-size: 26px;
+    font-weight: 700;
 }
