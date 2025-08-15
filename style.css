@@ -107,7 +107,7 @@ body {
     font-size: 90px;
 }
 
-.advantages__title, .about-us__subtitle {
+.advantages__title, .about-us__subtitle, .awards__title {
     padding-bottom: 30px;
 }
 
@@ -141,7 +141,7 @@ body {
     background-position: bottom;
 }
 
-.about-us {
+.about-us, .awards {
     padding: 0 290px 50px;
 }
 
@@ -154,4 +154,38 @@ body {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.5;
+}
+
+.award {
+    background-color: #EEF5FF;
+    border-radius: 60px;
+    padding: 30px;
+}
+
+.award__wrapper {
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.award__image {
+    border-radius: 35px;
+}
+
+.award__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.award__title {
+    font-size: 38px;
+    max-width: 450px;
+}
+
+.award__description {
+    font-size: 20px;
+    max-width: 400px;
 }
