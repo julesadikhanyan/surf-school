@@ -98,7 +98,7 @@ body {
     background-position: top;
 }
 
-.advantages {
+.advantages, .motivation {
     background-color: #EEF5FF;
     padding: 50px 290px;
 }
@@ -148,4 +148,10 @@ body {
 .about-us__subtitle {
     font-size: 26px;
     font-weight: 700;
+}
+
+.motivation__text {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
 }
